@@ -1,21 +1,12 @@
-version: '3'
+version: '3.8'
+
 services:
-  elasticsearch:
-    image: elasticsearch:8.8.0
-    environment:
-      - discovery.type=single-node
-      - validate_after_inactivity=0
-      - max_open_files=65536
-      - max_content_length_in_bytes=100000000
-      - transport.host=elasticsearch
-      - xpack.security.enabled=false
-    volumes:
-      - $HOME/app:/var/app
-    networks:
-      - my-network
+  iot-service:
+    build: .
     ports:
-      - "9200:9200"
-      - "9300:9300"
+      - "8080:8080"
+    networks:
+      - iot-network
 
 networks:
-  my-network:
+  iot-network:

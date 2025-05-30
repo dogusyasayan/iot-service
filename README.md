@@ -152,7 +152,8 @@ OpenRemote arayüzü üzerinde servis kullanıcısı başarıyla tanımlandı. B
 
 Swagger UI aracılığıyla asset oluşturmak için gönderilen örnek isteğe ait ekran görüntüsü aşağıdadır. Bu istek ile OpenRemote içinde başarılı şekilde varlık kaydı yapılmıştır.
 
-<img width="1317" alt="POST Request" src="https://github.com/user-attachments/assets/7d8de02d-2e9a-402d-a1cc-33e83f40e10e" />
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/9eb08025-48a9-4e90-aa45-ab5ccad7aa41" />
+
 
 ---
 
